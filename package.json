@@ -15,5 +15,8 @@
     "serve-favicon": "~2.4.5",
     "systeminformation": "^3.33.11",
     "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.3"
   }
 }
