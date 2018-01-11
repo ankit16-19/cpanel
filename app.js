@@ -4,11 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 var cpanel = require('./routes/cpanel');
 var baas = require('./routes/baas');
 
 var app = express();
+app.use(cors());
 
 
 // view engine setup
