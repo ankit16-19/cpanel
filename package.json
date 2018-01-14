@@ -15,7 +15,10 @@
     "serve-favicon": "~2.4.5",
     "systeminformation": "^3.33.11",
     "shelljs": "^0.7.8",
-    "cors": "^2.8.4"
+    "cors": "^2.8.4",
+    "mt-files-downloader": "^0.2.5",
+    "mt-downloader":"^2.2.2",
+    "zeltice-mt-downloader": "^1.1.3"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.3"
